@@ -16,7 +16,7 @@ const MyAlert = () => {
 
   return (
     <>
-      <Modal show={show} onHide={handleClose} onClick={show}>
+      <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Compra tutti i libri al 50% di sconto</Modal.Title>
         </Modal.Header>
