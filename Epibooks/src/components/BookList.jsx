@@ -5,7 +5,7 @@ const BookList = function(){
     return (
       Books.map(libro => {
         return (
-          <SingleBook libro={libro.asin} />
+          <SingleBook libro={libro} />
         )
       })
     )

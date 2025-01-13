@@ -1,6 +1,5 @@
 import { Component } from "react";
 import { Card, ListGroup, Container } from "react-bootstrap";
-import libro from '../data/fantasy.json';
 
 class SingleBook extends Component {
   render() {
@@ -12,7 +11,7 @@ class SingleBook extends Component {
                   <Card style={{ width: '16rem' }} key={this.props.libro.asin} className='mx-2 mb-2'>
                     <Card.Img
                       variant='top'
-                      src={libro.img}
+                      src={this.props.libro.img}
                       style={{ height: '400px' }}
                       className='w-100 object-fit-cover'
                     />
