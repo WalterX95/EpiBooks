@@ -8,7 +8,9 @@ class SingleBook extends Component {
               fluid={true}
               className='d-flex flex-wrap justify-content-center mt-5'
             >
-                  <Card style={{ width: '16rem' }} key={this.props.libro.asin} className='mx-2 mb-2'>
+        );
+                  
+                  <Card style={{ width: '16rem' }}  className='mx-2 mb-2'>
                     <Card.Img
                       variant='top'
                       src={this.props.libro.img}
